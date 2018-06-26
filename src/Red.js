@@ -4,7 +4,9 @@ import './main.css'
 class Red extends Component {
     render () {
         return (
-            <div className="red"></div>
+            <div className="red">
+                {this.props.number}
+            </div>
         )
     }
 }

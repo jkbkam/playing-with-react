@@ -6,7 +6,8 @@ class Green extends Component {
     render() {
         return (
             <div className="green">
-                <Red/>
+                {this.props.number}
+                <Red number={this.props.number}/>
             </div>
         )
     }
