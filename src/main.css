@@ -1,0 +1,19 @@
+.yellow {
+    background-color: yellow;
+    margin: 150px auto;
+    width: 600px;
+    height: 300px;
+}
+
+.green {
+    background-color: green;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+.red {
+    background-color: red;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
