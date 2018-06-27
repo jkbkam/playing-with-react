@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="yellow">
           {this.state.number}
-          <Green number={this.state.number} />
+          <Green/>
       </div>
     );
   }
