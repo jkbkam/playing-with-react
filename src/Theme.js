@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
 
-const ThemeContext = React.createContext()
+export const ThemeContext = React.createContext()
 
 export const ThemeConsumer = ThemeContext.Consumer;
 
 export class ThemeProvider extends Component {
-   state ={
-       number: 10,
-   }
+    state = {
+        number: 10,
+    }
 
-    render () {
+    render() {
         return (
             <ThemeContext.Provider value={this.state}>
                 {this.props.children}
@@ -18,4 +18,4 @@ export class ThemeProvider extends Component {
     }
 }
 
-export default MyContext
+
